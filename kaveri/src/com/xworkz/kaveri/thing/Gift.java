@@ -26,7 +26,7 @@ public class Gift {
 		if(box!=null) {
 			this.box.display();
 		}else {
-			System.out.println("this box is not pointing to memory");
+			System.err.println("this box is not pointing to memory");
 		}
 		
 		
