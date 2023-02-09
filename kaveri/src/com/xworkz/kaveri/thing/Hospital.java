@@ -2,7 +2,7 @@ package com.xworkz.kaveri.thing;
 
 public class Hospital {
 
-	String name;
+	public String name;
 	public Doctor[] doctors;
 
 	public Hospital() {

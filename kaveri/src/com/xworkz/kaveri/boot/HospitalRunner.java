@@ -12,7 +12,7 @@ public class HospitalRunner {
 		hospital.display();
 
 		Doctor doctor = new Doctor();
-		doctor.setName("MAnjula");
+		doctor.setName("Kims");
 
 		String[] ref = { "mbbs", "md" };
 

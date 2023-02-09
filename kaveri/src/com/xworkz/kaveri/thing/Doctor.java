@@ -25,9 +25,19 @@ public class Doctor {
 	public void display() {
 		System.out.println("name:" + name);
 		System.out.println("experience:" + experience);
-		for (int i = 0; i < specilizations.length; i++) {
-			System.out.println("specilizations: " + specilizations[i]);
+		
+		
+	if(this. specilizations!=null ){
+		for (int seq = 0; seq < specilizations.length; seq++) {
+			String element=this.specilizations[seq];
+			
+			System.out.println("specilizations: " +element+"at index"+seq);
 		}
+	}else {
+		System.out.println("this.specilization is not pointing to any memory");
 	}
-
+	
+	}
+	
+	
 }
