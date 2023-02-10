@@ -12,7 +12,7 @@ public class Mall {
 		System.out.println("no-org construction to mall");
 	}
 	
-	public void setmall(String name,boolean ambience,int totalFloor, MallFamousFor famous) {
+public void setmall(String name,boolean ambience,int totalFloor, MallFamousFor famous) {
 		this.name=name;
 		this.ambience=ambience;
 		this.totalFloors=totalFloor;
