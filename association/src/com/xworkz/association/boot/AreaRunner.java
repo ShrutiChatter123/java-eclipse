@@ -15,7 +15,6 @@ public class AreaRunner {
 	public static void main(String[] args) {
 	Area area=new Area("Rajajinagar",455444444,454);
 	
-
 	City city=new City();
 	city.setcity("bagalkot", "bagalkot", "india");
 	city.setArea(area);

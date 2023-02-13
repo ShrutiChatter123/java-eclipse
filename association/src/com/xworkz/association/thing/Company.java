@@ -10,7 +10,6 @@ public class Company {
 	
 	
 	
-	
 	public Company() {
 		System.out.println("No-org constructor to company");
 	}

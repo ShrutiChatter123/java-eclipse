@@ -13,9 +13,9 @@ public class Area {
 	}
 	
 	public void display() {
-		System.out.println("name:"+name);
-		System.out.println("population:"+population);
-		System.out.println("street:"+street);
+		System.out.println("name:"+this.name);
+		System.out.println("population:"+this.population);
+		System.out.println("street:"+this.street);
 	}
 	
 	
