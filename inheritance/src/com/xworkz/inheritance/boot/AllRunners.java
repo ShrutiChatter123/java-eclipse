@@ -66,6 +66,9 @@ public class AllRunners {
 		PalaceCity city=new PalaceCity();
 		Mysore myr=new PalaceCity();
 		Mysore myr1=new  Mysore();
+		
+		
+		
 	
 		
 		
