@@ -20,7 +20,7 @@ public class ValentineDayRunner {
 	boolean loversDay2=valentineDay.getLoversDay();
 	System.out.println(loversDay2);
 	
-	Feb14 feb141 = (Feb14) valentineDay;
+	Feb14 feb141 = (Feb14) valentineDay1;
 	feb141.celebrationDay();
 	
 		

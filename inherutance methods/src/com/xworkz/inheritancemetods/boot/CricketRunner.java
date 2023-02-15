@@ -23,7 +23,7 @@ public class CricketRunner {
 		System.out.println(skills2);
 		
 		
-		Cricket cricket1= (Cricket) sports;
+		Cricket cricket1= (Cricket) sports1;
 		cricket1.improvesAttention();
 		
 	

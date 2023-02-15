@@ -20,7 +20,7 @@ public class GameRunner {
 	String developer2=game1.getDeveloper();
 	System.out.println(developer2);
 	
-	CandyCrush candyCrush=(CandyCrush) game;
+	CandyCrush candyCrush=(CandyCrush) game1;
 	candyCrush.enterTainment();
 		
 		
