@@ -25,6 +25,11 @@ public class DoorRunner {
 		
 		System.out.println("=======================");
 		
+		
+		
+		
+		
+		
 		Door door1=new Door();
 		door1.setWood("pine");
 		door1.setShop("Ganesh woods");
