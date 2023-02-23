@@ -27,6 +27,7 @@ public class FootWare {
 					System.out.println("left is equals to right");
 					return true;
 				} else {
+					
 					System.err.println("left and right are not equal");
 				}
 			} else {

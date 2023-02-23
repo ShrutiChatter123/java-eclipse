@@ -21,8 +21,11 @@ public class TvRunner {
 		boolean b12=tv2.equals(tv1);
 		System.out.println(b12);
 		
-
 		
+		System.out.println(tv.hashCode()+"Original:"+System.identityHashCode(tv2));
+		
+	
 	}
-
+	
+	
 }

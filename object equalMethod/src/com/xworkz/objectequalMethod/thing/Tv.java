@@ -15,7 +15,7 @@ public class Tv {
 	@Override
 	public boolean equals(Object arg) {
 		System.out.println("Riunning equals in tv:" + arg);
-		if (arg!= null) {
+		if (arg != null) {
 			System.out.println("Arg is not null");
 			if (arg instanceof Tv) {
 				System.out.println("Arg is Tv");
@@ -46,5 +46,14 @@ public class Tv {
 	public String toString() {
 		return "brand:" + this.brand + "\nprice:" + this.price + "\nsize:" + this.size;
 	}
+	
+	@Override
+	public int hashCode() {
+		return 545;
+	}
+	
+	
+	
+	
 
 }
